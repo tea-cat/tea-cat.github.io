@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!--Header section-->
+    <div id="header">
+      <!--The color of links should change when we hover over view pseudo-class.-->
+      <div class="container">
+        <!--Used container class for the horizontal position of the elements
+        set max-width and to position the element in the horizontal center set margin:0-->
+        <a id="header-title" href="index.html">My Blog</a>
+        <ul id="header-nav">
+          <li><a href="about.html">About</a></li>
+          <li><a href="mailto: taylorlcochran@gmail.com">Contact</a></li>
+        </ul>
+        <!--Navigation links are in unordered list called header-nav
+        padding was added on left side for more space between list items.
+        and spaced reomved from top by setting margin:0.-->
+      </div>
+    </div>
+
+<!--Content Section containing posts, changed container class to post-container
+then created rule for psuedo-class nthchild(even)
+to alternate background color between white and lightgray-->
+  <div id="content">
+      <div class="post-container">
+        <div class="post">
+          <div class="post-author">
+            <img src="cat.png">
+            <span>Cat</span>
+          </div>
+            <p class="post-date">Today</p>
+            <h3 class="post-title">Meow?!</h3>
+            <div class="post-content">
+              <p>I can't beleive she can create a website!</p>
+              <p>All that time on her computer and phone really paid off.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+      <div class="post-container">
+        <div class="post">
+          <div class="post-author">
+            <img src="profilephoto.png">
+            <span>Taylor Cochran</Span>
+            </div>
+            <p class="post-date">Today</p>
+            <h3 class="post-title">Building my portfolio</h3>
+            <div class="post-content">
+              <p>I want to share my designs with everyone on this blog.</p>
+              <p>This is my first step towards becoming a developer, please enjoy!</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+<!--Footer Section-->
+    <div id="footer">
+      <div class="container">
+
+        <div class="column">
+          <h4>My Links</h4>
+          <p>
+            <a href="https://twitter.com/__TeaCat__">Twitter</a>
+            <br>
+            <a href="https://facebook.com/taylor.cochran.39">Facebook</a>
+            </p>
+          </div>
+
+          <div class="Column">
+            <h4>My Story</h4>
+            <p>Hi there! I'm a <strong>Botanist</strong>, <strong>GIS Analyst</strong>,
+              and an aspiring <strong>web developer</strong>.
+              I came across <a href="https://getmimo.com">Mimo</a> and using the app
+              helped me practice programming <em> any time!</em></p>
+            </div>
+
+            </div>
+            </div>
+            <!--The footer h4 elements should be white, uppercase, and increased
+            letter spacing in #footer h4 rule.-->
+
+  </body>
+</html>
